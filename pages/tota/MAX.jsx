@@ -206,8 +206,7 @@ setdetenerFuncion(false)
    
 
   }
- 
-
+ git 
 }
 alert(cantidad)
 setagregar(agre)
@@ -224,7 +223,7 @@ alert(objetos.nombre.edad )
 
 
     return <div>
-        <Layout titl= " JUEGO X VS 0"  >
+        <Layout titl= " EL MEJOR JUEGO"  >
             {data.map( dat =>{ return  <div key={dat.id} >
    <h3>
 
