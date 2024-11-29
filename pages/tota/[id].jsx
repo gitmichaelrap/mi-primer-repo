@@ -1,15 +1,10 @@
 export default function Prueba({data}){
 
-
-
 return (
-   <h1>{ data.id} -{data.title}  </h1>
-       
-
-
+   
+   <h1>{ data.id} -{data.title} amigo  </h1>
+     
 )
-
-
 
 
 }
@@ -33,6 +28,9 @@ console.log(error)
 
 
 }
+
+
+
 
 export async function getStaticProps({params}) {
    try{
