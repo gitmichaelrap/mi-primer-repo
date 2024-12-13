@@ -241,7 +241,7 @@ alert(objetos.nombre.edad )
         <input placeholder="escribe"  onChange={function (e){cama(e.target.value)    }}   ></input>
  
  <h2>{escritura}</h2>
-<h1 className={styles.titulo}  > JUEGO DE X VS 0</h1>
+<h1 className={styles.titulo}  > EL MEJOR JUEGO DE  X VS 0</h1>
 <div className={styles.dip} >
 {cambiando? <h2 className={ styles.conturnox}  > TURNO DE X </h2>: <h2 className={styles.sinturnox}  > ESPERANDO POR TURNO ..... </h2>     }
 { cambiando? <h2 className={styles.sinturno0}  > ESPERANDO POR TURNO .....   </h2> : <h2 className={styles.conturno0}  > TURNO DE 0    </h2>   }
