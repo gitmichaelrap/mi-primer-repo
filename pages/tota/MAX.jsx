@@ -2,8 +2,7 @@ import { useState,useEffect } from "react"
 import Layout from "../Layout"
 import styles from"./MAX.module.css"
 import Link from "next/link"
-
-
+import Probarr from "./Probarr"
 
 export default function Max ( {data}){
     console.log(data)
@@ -223,7 +222,10 @@ alert(objetos.nombre.edad )
 
 
     return <div>
+   <Probarr />
+
         <Layout titl= " EL MEJOR JUEGO"  >
+       
             {data.map( dat =>{ return  <div key={dat.id} >
    <h3>
 
@@ -278,6 +280,7 @@ alert(objetos.nombre.edad )
 
 
 </Layout>
+
     </div>
 
 
