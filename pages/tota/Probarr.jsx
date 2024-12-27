@@ -1,6 +1,5 @@
 export default function Probarr({objet,eliminando,editar}){
 
-
 return <div>
 
  { objet.map( (a)=>{ return <div key={a.id} >

@@ -1,5 +1,7 @@
 import Probarr from "./tota/Probarr"
 import { useState,useEffect } from "react"
+import Logica from "./Logica"
+
 export default function Red({data}){
 
     useEffect(function() {
@@ -55,10 +57,8 @@ setobjet(agre)
 }
 
 
-
-
 setagregar(" ")
-HH("")
+
 }
 
 
@@ -115,6 +115,7 @@ e.preventDefault()
  
 
     return <div>
+        <Logica></Logica>
         {  data.map( (s)=>{ return <div key={s.id}  >
             <h2>{s.body}</h2>
         </div>         }     )    }
@@ -137,6 +138,7 @@ e.preventDefault()
 export async function getStaticProps() {
 try{
     let red =  await fetch("https://jsonplaceholder.typicode.com/posts ")
+
   let data = await red.json()
   return {  
     props: {

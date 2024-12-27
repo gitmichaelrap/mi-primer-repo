@@ -1,9 +1,19 @@
+import Link from "next/link"
+
+
 export default function Prueba({data}){
 
-return (
-   
-   <h1>{ data.id} -{data.title} amigo  </h1>
-     
+return (<div>
+   < h1>{ data.id} -{data.title} amigo  </h1>
+ 
+   <h3>
+<Link href={"http://localhost:3000/tota/MAX"} >
+
+ volver a todos los post
+</Link>
+</h3>
+  
+   </div>
 )
 
 
@@ -19,7 +29,6 @@ let data = await red.json()
 return  {
    paths,
    fallback: false,
-
 
 }
 }catch(error){

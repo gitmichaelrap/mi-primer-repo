@@ -229,13 +229,14 @@ alert(objetos.nombre.edad )
             {data.map( dat =>{ return  <div key={dat.id} >
    <h3>
 
-<Link  href={`/tota/${dat.id}`} >
+<Link href={`/tota/${dat.id}`}>
 <a>{dat.id}-{dat.title}</a>
 <p>{ dat.body}</p>
 </Link>
     
    </h3>
                 
+
       
 
             </div>   }    )}
