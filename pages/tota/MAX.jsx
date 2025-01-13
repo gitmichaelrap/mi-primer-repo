@@ -205,7 +205,7 @@ setdetenerFuncion(false)
    
 
   }
- git 
+
 }
 alert(cantidad)
 setagregar(agre)
@@ -216,8 +216,18 @@ let objetos={ nombre:{edad: idd } }
 alert(objetos.nombre.edad )
 
 }
-  
 
+ function comer(){
+
+    let suma= 20
+    let res= 15
+    let sumando =  suma + res 
+
+    return  sumando 
+
+ }
+  
+console.log(comer())
 
 
 
@@ -229,14 +239,14 @@ alert(objetos.nombre.edad )
             {data.map( dat =>{ return  <div key={dat.id} >
    <h3>
 
-<Link href={`/tota/${dat.id}`}>
+<Link  href={`${dat.id}`}>
 <a>{dat.id}-{dat.title}</a>
 <p>{ dat.body}</p>
 </Link>
     
    </h3>
                 
-
+                
       
 
             </div>   }    )}
