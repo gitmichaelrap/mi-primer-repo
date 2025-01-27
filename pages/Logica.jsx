@@ -2,7 +2,7 @@ export default function Logica(){
 
 function jugo(){
   
-setTimeout(function(){alert("dentro")},2000 )
+setTimeout(function(){alert("dentro y fuer ")},2000 )
 
 amiguitos()
 
