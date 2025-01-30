@@ -29,7 +29,7 @@ let prueba= objet.find( function( element){ return element.nombre == agregar    
 
 
 if(prueba){
-alert("codigo repetido rgrg")
+alert("codigo repetido rggegrg")
 }else{ 
 
 
