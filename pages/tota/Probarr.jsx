@@ -9,8 +9,7 @@ return <div>
 </button>
 <button onClick={ function( ){editar(a)  }   }  >
     editar
-</button>
-
+</button>npm run dev
 </div>   }    )}
  
     <h2>logica</h2>
