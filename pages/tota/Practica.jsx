@@ -62,7 +62,7 @@ agregar
 <h2>{e.nombre}  </h2>
 
 <button onClick={function(){ Eliminar(e.id)}}  >
-   eliminar
+eliminador
 </button>
 <button>
     editar
