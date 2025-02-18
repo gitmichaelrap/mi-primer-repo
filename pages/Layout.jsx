@@ -21,7 +21,7 @@ export default function Layout({children,titl}){
    
      </main>
      <footer>
-<h2>logico de la logica</h2>
+<h2>este es el pie de paginadd </h2>
      </footer>
 
     </div>
