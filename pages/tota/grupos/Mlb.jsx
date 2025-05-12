@@ -91,7 +91,7 @@ return <div style={{ backgroundImage: 'url("/dd.jpj.webp")', backgroundSize: 'co
      SIOR
     </option>
     <option> 
-    luis bolibar 
+     daulin
     </option>
     
  </select>
