@@ -1,0 +1,120 @@
+.aa{
+ 
+  background-image: url("/public/michael.jpg");
+  background-size: cover;
+ 
+}
+.Ba{
+    background-color: aqua;
+}
+.body{
+    background-color: rgb(207, 207, 216);
+  
+}
+
+.fondo{
+    background-color: rgb(7, 3, 10);
+    color: aliceblue;
+    text-align: center;
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+
+}
+.inputt{
+    margin:0px 8px ;
+}
+.inputt{
+border: solid 2px;
+
+height:15px ;
+
+}
+
+
+.select{
+width: 150px;
+height:20px ;
+
+}
+.select{
+   border: solid 2px;
+}
+
+
+.select:hover{
+border: solid 2px ;
+ border-color:rgb(42, 201, 90) ;
+
+}
+.button{
+    display: flex;
+  justify-content: center;
+}
+.button{
+ border: solid 2px;
+height:20px ;
+
+}
+.buttonactivado{
+    background-color:rgb(42, 201, 90)  ;
+}
+.calculo{
+background-color: aqua;
+}
+.calculo{
+display: inline flex;
+}
+.tex{
+   display: inline-flex;
+  flex-direction: column ;
+}
+
+.botonmagico{
+ display: flex;
+ position: relative;
+    background-color: rgb(17, 17, 17);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight:bold ;
+    border-radius: 12px;   
+}
+.botonmagico::before{
+    content:" ";
+    position: absolute;
+    top: 0;
+    left: 0;
+z-index: -1;
+width: 100%;
+height: 100%;
+background: linear-gradient(
+    45deg,
+    red, blue,deeppink,blue,red,blue,deeppink,blue
+
+);
+background-size: 800%;
+border-radius: 10px;
+filter: blur(8px);
+animation: glwing 20s linear infinite
+}
+
+
+@keyframes glwing{
+0%{
+    background-position: 0 0;
+}
+50%{
+    background-position: 400% 0;
+}
+
+100%{
+    background-position: 0 0;
+}
+
+
+}
+

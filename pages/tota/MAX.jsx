@@ -2,7 +2,7 @@ import { useState,useEffect } from "react"
 import Layout from "../Layout"
 import styles from"./MAX.module.css"
 import Link from "next/link"
-
+import Image from "next/image"
 
 export default function Max ( {data}){
     console.log(data)
@@ -14,7 +14,7 @@ let [cambiando,setcambiando]=useState(true)
 let[ detenerFuncion,setdetenerFuncion]=useState(true)
 let [cantidad,setcatidad]=useState(0)
 
-let [ escritura,setescritura]=useState( "")
+let [ escritura,setescritura]=useState("")
 
 
 
@@ -239,7 +239,7 @@ console.log(comer())
             {data.map( dat =>{ return  <div key={dat.id} >
    <h3>
 
-<Link  href={`${dat.id}`}>
+<Link  href={"grupos/"+`${dat.id}`}>
 <a>{dat.id}-{dat.title}</a>
 <p>{ dat.body}</p>
 </Link>
@@ -289,6 +289,7 @@ console.log(comer())
 
 <a href="http://localhost:3000/Layout"> volver a pagina incial  </a>
 
+<Image src="/michael.jpg"  width={250}  height={250} />
 
 </Layout>
 
